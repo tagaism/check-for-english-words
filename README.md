@@ -1,24 +1,17 @@
-# README
+```
+   __                  _____         __             _            _     _            
+  /  )/         /       /  '        /  `           //       /   ' )   /         /   
+ /   /_  _  _. /_    ,-/-,__ __    /--  ____  _,  // o _   /_    / / /__ __  __/ _  
+(__// /_</_(__/ <_  (_/  (_)/ (_  (___,/ / <_(_)_</_<_/_)_/ /_  (_(_/(_)/ (_(_/_/_)_
+                                              /|                                    
+                                             |/                                     
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://check-for-english-words.herokuapp.com/
 
-Things you may want to cover:
+This application allows to check if there are non-english words in text.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- **BackEnd:** [Ruby On Rails 7.0](https://guides.rubyonrails.org/7_0_release_notes.html)
+- **FrontEnd:** [React JS](https://reactjs.org/)
+- **Hosted On:** [Heroku](https://www.heroku.com/)
+- **Vocabulary:** [Jerimy Rifkin](https://raw.githubusercontent.com/jeremy-rifkin/Wordlist/master/master.txt)
