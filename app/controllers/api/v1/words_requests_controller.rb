@@ -1,7 +1,12 @@
 class Api::V1::WordsRequestsController < ApplicationController
-  def index
+  def create
+    non_english_words = WordsQueries.call(text_params)
+    render json: non_english_words
   end
 
-  def create
+  private
+
+  def text_params
+    params.require(:text).permit(:value)
   end
 end
